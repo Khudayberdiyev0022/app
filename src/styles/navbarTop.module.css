@@ -1,0 +1,27 @@
+.navbar_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;    
+}
+
+.navbar_top h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 33px;
+    font-weight: 600;
+    padding-left: 15px;
+    
+
+}
+
+.navbar_top svg {
+    fill: #fff;
+    font-size: 30px;
+    padding-right: 15px;
+    
+}

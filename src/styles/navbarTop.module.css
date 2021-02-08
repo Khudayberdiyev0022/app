@@ -4,10 +4,11 @@
     align-items: center;
     position: fixed;
     left: 0;
+    right: 0;
     top: 0;
     width: 100%;
+    /* margin-bottom: 100px; */
     background-color: #000;
-    color: #fff;    
 }
 
 .navbar_top h3 {
@@ -15,13 +16,13 @@
     font-size: 33px;
     font-weight: 600;
     padding-left: 15px;
-    
-
+    color: rgb(184, 184, 184);
+    cursor: pointer;
 }
 
 .navbar_top svg {
-    fill: #fff;
+    fill: rgb(184, 184, 184);
     font-size: 30px;
     padding-right: 15px;
-    
+    cursor: pointer;    
 }

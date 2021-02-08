@@ -1,0 +1,53 @@
+.heartCard {
+    width: 100%;
+}
+
+.heartCard .h2 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    background-color: #000;
+    color: rgb(184, 184, 184);
+    width: 100%;
+    position: fixed;
+    margin: auto;
+    font-size: 40px;
+    padding: 1.5rem;
+}
+
+.heartCard .block{
+    padding-top: 100px;
+    /* width: 80%; */
+    margin: auto;
+}
+
+.heartCard .heartBlock {
+    display: flex; 
+    /* flex-direction: column; */
+    height: 180px;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+}
+
+.heartCard .heartBox {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-size: cover;
+    border: 1px solid; 
+}
+
+.heartCard h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.heartCard h3>small {
+    opacity: .6;
+    font-style: italic;
+}
+
+.heartCard svg{
+    font-size: 30px;
+}

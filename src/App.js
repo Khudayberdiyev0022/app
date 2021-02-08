@@ -11,13 +11,12 @@ import Search from './components/Search';
 import Camera from './components/Camera';
 import Heart from './components/Heart';
 import User from './components/User';
-import NavbarTop from './NavbarTop';
+// import NavbarTop from './NavbarTop';
 
 function App() {
   return (
-    <div style={{ height: '1000vh' }}>
+    <div>
       <Router>
-        <NavbarTop />
         <Switch>
           <Route exact path='/'>
             <Home />

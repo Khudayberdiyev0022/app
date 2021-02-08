@@ -1,33 +1,20 @@
-import React, { useState, useEffect, Fragment } from 'react'
-import axios from 'axios'
+import React, { Fragment } from 'react'
 import History from './History'
+import style from '../../styles/home1.module.css'
+// import Home2 from './Home2'
 
 
-const Home1 = () => {
-    const [photos, setPhotos] = useState([])
-    useEffect(() => {
-        const fetchdata = async () => {
-            const response = await axios.get('https://api.unsplash.com/photos', {
-                params: { query: 'user' },
-                headers: {
-                    Authorization: 'Client-ID GE9QJfbWpsZxKSjafaCwAtT7cHHyOtU3qk0BOIntrAE'
-                }
-            })
-            setPhotos(response.data)
-        }
-        fetchdata()
-    }, [])
-    console.log(photos);
-
+const Home1 = ({photos}) => {
+   
 
 
     return (
-        <div>
+        <div className={style.home1}>
             {
                 photos.map((photo, index) => {
                     return (
                         <Fragment key={index}>
-                            <History img={photo.urls.regular} name={photo.user.instagram_username} />
+                            <History img={photo.urls.regular} name={photo.user.first_name} />
                         </Fragment>
                     )
                 })

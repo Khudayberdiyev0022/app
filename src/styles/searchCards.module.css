@@ -1,0 +1,10 @@
+.searchCardsTop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.searchCards {
+    width: 327px;
+     height: 327px; 
+     background-size: cover;
+}

@@ -1,4 +1,9 @@
-.home1 {
-    height: 200px;
-    background-color: hotpink;
+.home1::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.home1{
+    display: flex;
+    overflow-x: scroll; 
+
 }

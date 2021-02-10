@@ -1,9 +1,14 @@
 import React from 'react'
+import UserButton from './home/UserButton'
+import UserGrid from './home/UserGrid'
+import UserTop from './home/UserTop'
 
 const User = () => {
     return (
         <div>
-            <h1>User Page</h1>
+            <UserTop />
+            <UserButton />
+            <UserGrid />
         </div>
     )
 }

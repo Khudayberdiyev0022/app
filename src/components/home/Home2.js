@@ -6,7 +6,7 @@ function Home2({ rasmlar }) {
         <div>
             {
                 rasmlar.map((rasm, index) => {
-                    console.log({rasmlar})
+                    // console.log({rasmlar})
                     return (
                         <Fragment key={index}>
 

@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { selectPicture, selectedPictures } from '../../actions'
 
 const CameraPhotos2 = (props) => {
-    console.log(props);
+    // console.log(props);
     const [rasm, setRasm] = useState([])
     useEffect(() => {
         const fetchdata = async () => {
